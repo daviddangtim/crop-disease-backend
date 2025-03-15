@@ -37,8 +37,7 @@ if err != nil {
 }
 
 tempFile.Write(fileBytes)
-
-log.Println(fmt.Fprintf(w, "Successfully Uploaded File\n"))
+fmt.Fprintf(w, "Successfully Uploaded File\n")
 
     
 }
